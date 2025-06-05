@@ -1,0 +1,31 @@
+.rzti-header-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-scroll-behavior {
+    height: 60px !important;
+    background: var(--background-color);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+}
+
+.rzti-header-logo,
+.rzti-header-nav {
+    padding: 3rem;
+}
+
+.rzti-header-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-scroll-behavior {
+    width: 60px;
+    height: 60px;
+}
